@@ -10,7 +10,7 @@ Author: Eduard Kegulskiy
 from colorama import init
 from nltk.corpus import stopwords
 from nltk.tokenize import TweetTokenizer
-from pattern.en import conjugate, PAST, SG
+from pattern.text.en import conjugate, PAST, SG
 
 from qa_utils import *
 
